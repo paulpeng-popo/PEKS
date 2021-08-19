@@ -1,0 +1,13 @@
+"""Decrypts a ciphertext using the Lewmko2008rws KP-ABE Scheme.
+    The plaintext will be returned iff the set of attributes used to
+    generate the cipher-text can be satisfied by the policy within the
+    decryption key.
+    @param group  The `PairingGroup` used within the underlying crypto.
+    @param mpk    The Master Public Key of type `mk_t`.
+    @param deckey The decryption key of type `sk_t`.
+    @param ctxt   The `bytearray` resulting from `io.open` or `io.IOBytes`
+                 containing the ciphertext.
+    @return A `bytearray` containing the plaintext.
+    @throw PebelDecryptionException if deckey cannot satisfy the
+            policy within the ciphertext.
+    """

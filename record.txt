@@ -1,0 +1,11 @@
+python Sender.py mailA.txt Amail.nmail "DIARY MOOD TXT CANCANRAIN"
+
+python Sender.py mailB.txt Bmail.nmail "MUSIC DESCRIPTION TXT OWEN"
+
+python Sender.py mailC.txt Cmail.nmail "CHINESE HASH TXT POPO"
+
+python Sender.py mailD.txt Dmail.nmail "PYTHON AES PYCRYPTODOMEX TXT POPO"
+
+python Sender.py mailE.txt Email.nmail "CODE COMMENT FUNCTION DECRYPT TXT OWEN"
+
+### 加密屬性字母必須大寫
